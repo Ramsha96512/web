@@ -21,8 +21,8 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Happy Birthday, My Love 💌" },
-      { name: "description", content: "A romantic, animated birthday surprise — open the envelope to begin." },
+      { title: "Happy Birthday, 💌" },
+      { name: "description", content: "open the envelope to begin." },
     ],
   }),
   component: Index,
@@ -170,14 +170,14 @@ Thank you for being you. Today, tomorrow, always.
 
       <section className={cls("section-welcome")} id="section-welcome">
         <div className="card">
-          <h1 className="script-xl">Hello, beautiful</h1>
-          <p className="lead">Today the world celebrates the day you came into it — and so do I.</p>
+          <h1 className="script-xl">heeeeeeeehhhhhhhhheeeeee</h1>
+          <p className="lead">haaaaaaapppppyyyy Bbbbirrrthhhdddaayyyyy</p>
           <button className="btn" onClick={() => goTo("section-memories")}>Take me through it →</button>
         </div>
       </section>
 
       <section className={cls("section-memories")} id="section-memories">
-        <h2 className="script-lg">Our little memories</h2>
+        <h2 className="script-lg">dekhhooo</h2>
         <div className="memories-carousel">
           <Carousel
             opts={{ loop: true, align: "center" }}
@@ -228,7 +228,7 @@ Thank you for being you. Today, tomorrow, always.
       <section className={cls("section-fun")} id="section-fun">
         <div className="card">
           <h2 className="script-lg">Send me your love 💕</h2>
-          <p className="lead">Tap the heart as many times as you love me…</p>
+          <p className="lead">Tap the heart as many times as you love me ..click matt karte rahh jana …</p>
           <button
             className="big-heart"
             aria-label="Send love"
@@ -237,7 +237,7 @@ Thank you for being you. Today, tomorrow, always.
             ♥
           </button>
           <p className="counter">{loveCount} {loveCount === 1 ? "heart" : "hearts"} sent</p>
-          <button className="btn" onClick={() => goTo("section-cake")}>Now blow the candles 🎂</button>
+          <button className="btn" onClick={() => goTo("section-cake")}>Now blow the candles ..aache se fuk marna 🎂</button>
         </div>
       </section>
 
@@ -258,8 +258,8 @@ Thank you for being you. Today, tomorrow, always.
       <section className={cls("section-final")} id="section-final">
         <div className="final">
           <h1 className="script-xxl">Happy Birthday</h1>
-          <p className="script-lg">my love ♡</p>
-          <p className="lead">Here's to you — and to every year I get to love you a little more.</p>
+          <p className="script-lg"> ♡</p>
+          <p className="lead">Here's to you — and to every year I get to love you a little more ....ye ai ka text hai mere nahi.hhehe</p>
         </div>
       </section>
 
