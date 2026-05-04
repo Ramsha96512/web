@@ -2,14 +2,14 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import Autoplay from "embla-carousel-autoplay";
 import "../birthday.css";
-import memory1 from "@/assets/memory1.jpg";
-import memory2 from "@/assets/memory2.jpg";
-import memory3 from "@/assets/memory3.jpg";
-import memory4 from "@/assets/memory4.jpg";
-import memory5 from "@/assets/memory5.jpg";
-import memory6 from "@/assets/memory6.jpg";
-import photo1 from "@/assets/memory1.jpg";
-import photo2 from "@/assets/memory2.jpg";
+import memory1 from "@/assets/memory1.jpeg";
+import memory2 from "@/assets/memory2.jpeg";
+import memory3 from "@/assets/memory3.jpeg";
+import memory4 from "@/assets/memory4.jpeg";
+import memory5 from "@/assets/memory5.jpeg";
+import memory6 from "@/assets/memory6.jpeg";
+import photo1 from "@/assets/memory1.jpeg";
+import photo2 from "@/assets/memory2.jpeg";
 import {
   Carousel,
   CarouselContent,
